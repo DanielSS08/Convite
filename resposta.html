@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resposta</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="question">Onde você gostaria de ir?</div>
+    <div class="options">
+      <form action="processa_form.php" method="post">
+          <input type="checkbox" name="lugares[]" value="cinema">Cinema<br>
+          <input type="checkbox" name="lugares[]" value="barzinho">Praia<br>
+          <input type="checkbox" name="lugares[]" value="cafeteria">Sair??<br>
+          <input type="checkbox" name="lugares[]" value="cafeteria">E o Qsabor hein?<br>
+          <input type="checkbox" name="lugares[]" value="cafeteria">Tem aquele que é só 4km daqui, topa?<br>
+          <br>
+          <label>Opinião:</label>
+          <input type="text" name="opiniao">
+          <br><br>
+          <input type="submit" value="Enviar">
+        </form>     
+</body>
+</html>
